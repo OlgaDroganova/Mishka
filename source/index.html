@@ -2,11 +2,44 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
+    <title>Test: Мишка</title>
   </head>
   <body>
+    <div class="container">
+      <header class="page-header">
+        <nav class="main-nav">
+          <button class="main-nav__toggle main-nav__toggle--closed main-nav__toggle--nojs">
+            <div class="main-nav__toggles">
+    					<span class="visually-hidden main-toggle">Кнопка открыть/закрыть меню в мобильой версии</span>
+    				</div>
+          </button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item">
+                <a class="site-list__link site-list__link--active">Главная</a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="catalog.html">Каталог товаров</a>
+              </li>
+              <li class="site-list__item">
+                <a class="site-list__link" href="form.html">Вязание на заказ</a>
+              </li>
+              <li class="site-list__item">
+                <form class="site-list__look" action="#">
+                    <input id="look-input" name="search" type="text">
+                    <label for="look-input">Поиск по сайту:</label>
+                </form>
+              </li>
+              <li>
+                <a>Корзина</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+
 
   </body>
 </html>
